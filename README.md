@@ -1,5 +1,26 @@
 # curry-composition-lazy
 
+**make sure you have latest node installed** 
+
+Install packages
+```
+npm i
+``` 
+
+Run script
+```
+npm run start
+``` 
+
+Run tests
+```
+npm run test
+``` 
+
+_______
+
+## Solution explanation step by step
+
 My progress on understanding Lazy approach.
 
 First of all, I had to play with a simple curry approach to keep my mind fresh since it's something I don't do often.
