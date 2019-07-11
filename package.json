@@ -1,0 +1,21 @@
+{
+  "name": "curry-composition-lazy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serraventura/curry-composition-lazy.git"
+  },
+  "author": "Thiago Ventura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serraventura/curry-composition-lazy/issues"
+  },
+  "homepage": "https://github.com/serraventura/curry-composition-lazy#readme",
+  "devDependencies": {
+  }
+}
