@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node ."
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,18 @@
     "url": "https://github.com/serraventura/curry-composition-lazy/issues"
   },
   "homepage": "https://github.com/serraventura/curry-composition-lazy#readme",
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
   "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.3",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "1.6.1",
+    "babel-jest": "^24.8.0",
+    "jest": "^23.5.0"
   }
 }
